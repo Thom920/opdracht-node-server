@@ -1,0 +1,15 @@
+{
+  "name": "nodejswebserver",
+  "version": "1.0.0",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "pretty-log": "^0.1.0"
+  }
+}
