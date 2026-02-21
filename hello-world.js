@@ -6,9 +6,10 @@ const port = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Dit werkt nu echt!\n');
+    res.end('Kiekeboe!\n');
 });
 
 server.listen(port, () => {
     log.success(`Server draait op poort ${port}`);
 });
+
